@@ -4,6 +4,7 @@ from operation import get_even_numbers, get_unique_items
 
 def test_get_even_numbers():
     assert get_even_numbers([1, 2, 3, 4, 5, 6]) == [2, 4, 6]
+    assert get_even_numbers([1, 2, 3, 4, 5, 6]) == [1, 3, 5]
 
 
 def test_get_unique_items():
