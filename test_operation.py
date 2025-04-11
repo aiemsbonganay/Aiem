@@ -1,5 +1,5 @@
 
-from app import get_even_numbers, get_unique_items
+from operation import get_even_numbers, get_unique_items
 
 
 def test_get_even_numbers():
